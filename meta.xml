@@ -1,0 +1,19 @@
+<ALL>
+    <C1 name="内动力地貌符号" code="01" descrption="内动力地貌符号描述文档">
+        <C2 name="区域构造地貌" code="0101" descrption="">
+            
+            <C3 name="构造山系" code="010101" file="abc.gltf" thumb="thumbnail.png" descrption="">
+                <C4> 
+                </C4>
+            </C3>
+            
+            <C3 name="大陆裂谷" code="010102" file="abc.gltf" thumb="thumbnail.png" descrption="">
+            </C3>
+            
+        </C2>
+    </C1>
+
+    <C1 name="气象符号" code="01" descrption="内动力地貌符号描述文档"></C1>
+
+
+</ALL>
