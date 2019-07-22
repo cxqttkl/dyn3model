@@ -1,0 +1,23 @@
+﻿<MODEL>
+    <!-- 符号名称，如 地震 -->
+    <CAPTION>崩积物崩塌</CAPTION>  
+    <!-- 符号描述 如 地震是***  -->
+    <DESCRIPTION>崩积物崩塌是山坡上已有的崩塌岩屑和沙土等物质，由于它们的质地很松散，当有雨水浸湿或受地震震动时，再一次形成的崩塌。</DESCRIPTION>
+    <!-- 符号的文件名，如 a.gltf -->
+    <FILE>111.gltf</FILE>
+    <!-- 缩略图名，如 a.gif -->
+    <THUMBNAIL>崩积物崩塌.gif</THUMBNAIL>
+    <!-- 符号支持的参数，不清楚可先不填 -->
+    <PARAMETERS>
+        <PARAMETER>
+            <NAME></NAME>
+            <MEAN></MEAN>
+            <TYPE></TYPE>
+            <DEFAULTVALUE></DEFAULTVALUE>
+            <MINVALUE></MINVALUE>
+            <MAXVALUE></MAXVALUE>
+            <CATEGORY></CATEGORY>
+        </PARAMETER>
+        <PARAMETER></PARAMETER>
+    </PARAMETERS>
+</MODEL>

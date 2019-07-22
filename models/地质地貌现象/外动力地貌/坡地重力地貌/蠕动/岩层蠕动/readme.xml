@@ -1,0 +1,18 @@
+﻿<MODEL>
+    <CAPTION>岩层蠕动</CAPTION>  
+    <DESCRIPTION>岩层蠕动是指斜坡上的岩体在本身的重力作用下，发生十分缓慢的塑性变形或弹性变形。主要出现在页岩、片岩、千枚岩、粘土岩等柔性岩层组成的坡地上。</DESCRIPTION>
+    <FILE>岩层蠕动.gltf</FILE>
+    <THUMBNAIL>岩层蠕动.gif</THUMBNAIL>
+    <PARAMETERS>
+        <PARAMETER>
+            <NAME></NAME>
+            <MEAN></MEAN>
+            <TYPE></TYPE>
+            <DEFAULTVALUE></DEFAULTVALUE>
+            <MINVALUE></MINVALUE>
+            <MAXVALUE></MAXVALUE>
+            <CATEGORY></CATEGORY>
+        </PARAMETER>
+        <PARAMETER></PARAMETER>
+    </PARAMETERS>
+</MODEL>

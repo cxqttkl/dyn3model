@@ -1,0 +1,18 @@
+﻿<MODEL>
+    <CAPTION>冲沟</CAPTION>  
+    <DESCRIPTION>冲沟是由于向源侵蚀和下切加强，切沟加深、加宽→冲沟，横剖面宽底V字型，沟坡很陡，沟头是活动的，沟缘明显。</DESCRIPTION>
+    <FILE>冲沟.gltf </FILE>
+    <THUMBNAIL>冲沟.gif</THUMBNAIL>
+    <PARAMETERS>
+        <PARAMETER>
+            <NAME></NAME>
+            <MEAN></MEAN>
+            <TYPE></TYPE>
+            <DEFAULTVALUE></DEFAULTVALUE>
+            <MINVALUE></MINVALUE>
+            <MAXVALUE></MAXVALUE>
+            <CATEGORY></CATEGORY>
+        </PARAMETER>
+        <PARAMETER></PARAMETER>
+    </PARAMETERS>
+</MODEL>

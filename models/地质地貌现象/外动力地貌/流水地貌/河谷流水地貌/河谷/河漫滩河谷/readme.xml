@@ -1,0 +1,18 @@
+<MODEL>
+    <CAPTION>河漫滩河谷</CAPTION>  
+    <DESCRIPTION>河漫滩河谷的谷底宽广而平坦，谷坡亦较陡，河谷横剖面呈U形或屉形，由V形谷发展而成。</DESCRIPTION>
+    <FILE>河漫滩河谷.gltf</FILE>
+    <THUMBNAIL>河漫滩河谷.gif</THUMBNAIL>
+    <PARAMETERS>
+        <PARAMETER>
+            <NAME></NAME>
+            <MEAN></MEAN>
+            <TYPE></TYPE>
+            <DEFAULTVALUE></DEFAULTVALUE>
+            <MINVALUE></MINVALUE>
+            <MAXVALUE></MAXVALUE>
+            <CATEGORY></CATEGORY>
+        </PARAMETER>
+        <PARAMETER></PARAMETER>
+    </PARAMETERS>
+</MODEL>

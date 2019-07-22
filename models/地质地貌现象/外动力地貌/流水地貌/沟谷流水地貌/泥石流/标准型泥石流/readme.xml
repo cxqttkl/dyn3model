@@ -1,0 +1,19 @@
+<MODEL>
+    <CAPTION>标准型泥石流</CAPTION>  
+    <DESCRIPTION>泥石流是指在山区或者其他沟谷深壑，地形险峻的地区，因为暴雨、暴雪或其他自然灾害引发的山体滑坡并携带有大量泥沙以及石块的特殊洪流。泥石流具有突然性以及流速快，流量大，物质容量大和破坏力强等特点。为典型的泥石流，流域呈扇形，面积较大，能明显的划分出形成区，流通区和堆积区。
+</DESCRIPTION>
+    <FILE>标准型泥石流.gltf</FILE>
+    <THUMBNAIL>标准型泥石流.gif</THUMBNAIL>
+    <PARAMETERS>
+        <PARAMETER>
+            <NAME></NAME>
+            <MEAN></MEAN>
+            <TYPE></TYPE>
+            <DEFAULTVALUE></DEFAULTVALUE>
+            <MINVALUE></MINVALUE>
+            <MAXVALUE></MAXVALUE>
+            <CATEGORY></CATEGORY>
+        </PARAMETER>
+        <PARAMETER></PARAMETER>
+    </PARAMETERS>
+</MODEL>

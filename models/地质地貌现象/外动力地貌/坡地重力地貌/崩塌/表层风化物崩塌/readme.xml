@@ -1,0 +1,23 @@
+﻿<MODEL>
+    <!-- 符号名称，如 地震 -->
+    <CAPTION>表层风化物崩塌</CAPTION>  
+    <!-- 符号描述 如 地震是***  -->
+    <DESCRIPTION>表层风化物崩塌是在地下水沿风化层下部的基岩面流动时，引起的风化层沿基岩面崩塌的崩塌</DESCRIPTION>
+    <!-- 符号的文件名，如 a.gltf --
+    <FILE>表层风化物崩塌.gltf</FILE>
+    <!-- 缩略图名，如 a.gif -->
+    <THUMBNAIL>表层风化物崩塌.gif</THUMBNAIL>
+    <!-- 符号支持的参数，不清楚可先不填 -->
+    <PARAMETERS>
+        <PARAMETER>
+            <NAME></NAME>
+            <MEAN></MEAN>
+            <TYPE></TYPE>
+            <DEFAULTVALUE></DEFAULTVALUE>
+            <MINVALUE></MINVALUE>
+            <MAXVALUE></MAXVALUE>
+            <CATEGORY></CATEGORY>
+        </PARAMETER>
+        <PARAMETER></PARAMETER>
+    </PARAMETERS>
+</MODEL>

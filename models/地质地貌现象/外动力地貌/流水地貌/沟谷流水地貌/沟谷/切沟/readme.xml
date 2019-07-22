@@ -1,0 +1,18 @@
+﻿<MODEL>
+    <CAPTION>切沟</CAPTION>  
+    <DESCRIPTION>切沟是在坡面上大致平行的细沟→切沟，宽深约1-2米，横剖面呈V字型，沟缘较明显，沟底纵剖面与沟身所在的坡面大致平行。</DESCRIPTION>
+    <FILE>切沟.gltf</FILE>
+    <THUMBNAIL>切沟.gif </THUMBNAIL>
+    <PARAMETERS>
+        <PARAMETER>
+            <NAME></NAME>
+            <MEAN></MEAN>
+            <TYPE></TYPE>
+            <DEFAULTVALUE></DEFAULTVALUE>
+            <MINVALUE></MINVALUE>
+            <MAXVALUE></MAXVALUE>
+            <CATEGORY></CATEGORY>
+        </PARAMETER>
+        <PARAMETER></PARAMETER>
+    </PARAMETERS>
+</MODEL>

@@ -1,0 +1,18 @@
+﻿<MODEL>    
+    <CAPTION>冰斗</CAPTION>      
+    <DESCRIPTION>冰斗是由冰蚀作用造成的三面环山，后壁陡峻的半圆形洼地。其出口向山坡前方，口上常有凸起的岩坎，整个地形似匙状。</DESCRIPTION>    
+    <FILE>冰斗.gltf</FILE>   
+    <THUMBNAIL>冰斗.gif</THUMBNAIL>
+    <PARAMETERS>
+        <PARAMETER>
+            <NAME></NAME>
+            <MEAN></MEAN>
+            <TYPE></TYPE>
+            <DEFAULTVALUE></DEFAULTVALUE>
+            <MINVALUE></MINVALUE>
+            <MAXVALUE></MAXVALUE>
+            <CATEGORY></CATEGORY>
+        </PARAMETER>
+        <PARAMETER></PARAMETER>
+    </PARAMETERS>
+</MODEL>

@@ -1,0 +1,24 @@
+<MODEL>
+    <!-- 符号名称，如 地震 -->
+    <CAPTION>顺直微弯型河床</CAPTION>  
+    <!-- 符号描述 如 地震是***  -->
+    <DESCRIPTION>顺直微弯型河床是河床曲折系数小于1.5的河床</DESCRIPTION>
+    <!-- 符号的文件名，如 a.gltf -->
+    <FILE>顺直微弯型河床.gltf</FILE>
+    <!-- 缩略图名，如 a.gif -->
+    <THUMBNAIL>顺直微弯型河床.gif</THUMBNAIL>
+    <!-- 符号支持的参数，不清楚可先不填 -->
+    <PARAMETERS>
+        <PARAMETER>
+            <NAME></NAME>
+            <MEAN></MEAN>
+            <TYPE></TYPE>
+            <DEFAULTVALUE></DEFAULTVALUE>
+            <MINVALUE></MINVALUE>
+            <MAXVALUE></MAXVALUE>
+            <CATEGORY></CATEGORY>
+        </PARAMETER>
+        <PARAMETER></PARAMETER>
+    </PARAMETERS>
+</MODEL>
+

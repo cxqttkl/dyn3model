@@ -1,0 +1,20 @@
+<MODEL>
+    <CAPTION>岩漠</CAPTION>  
+    <DESCRIPTION>
+		在干旱地区，遭受强烈风化和风蚀的裸露的基岩地表，成为石质荒漠或岩漠。
+	</DESCRIPTION>
+    <FILE>岩漠.gltf</FILE>
+    <THUMBNAIL>岩漠.gif</THUMBNAIL>
+    <PARAMETERS>
+        <PARAMETER>
+            <NAME></NAME>
+            <MEAN></MEAN>
+            <TYPE></TYPE>
+            <DEFAULTVALUE></DEFAULTVALUE>
+            <MINVALUE></MINVALUE>
+            <MAXVALUE></MAXVALUE>
+            <CATEGORY></CATEGORY>
+        </PARAMETER>
+        <PARAMETER></PARAMETER>
+    </PARAMETERS>
+</MODEL>

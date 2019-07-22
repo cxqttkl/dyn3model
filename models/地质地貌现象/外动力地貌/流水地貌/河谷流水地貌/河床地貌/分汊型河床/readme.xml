@@ -1,0 +1,23 @@
+﻿<MODEL>
+    <!-- 符号名称，如 地震 -->
+    <CAPTION>分汊型河床</CAPTION>  
+    <!-- 符号描述 如 地震是***  -->
+    <DESCRIPTION>分汊型河床上下游紧邻两段的宽窄不同，窄段为单一河床，宽段则由一个或几个江心洲间隔成二股或多股汊道</DESCRIPTION>
+    <!-- 符号的文件名，如 a.gltf -->
+    <FILE>分汊型河床.gltf</FILE>
+    <!-- 缩略图名，如 a.gif -->
+    <THUMBNAIL>分汊型河床.gif</THUMBNAIL>
+    <!-- 符号支持的参数，不清楚可先不填 -->
+    <PARAMETERS>
+        <PARAMETER>
+            <NAME></NAME>
+            <MEAN></MEAN>
+            <TYPE></TYPE>
+            <DEFAULTVALUE></DEFAULTVALUE>
+            <MINVALUE></MINVALUE>
+            <MAXVALUE></MAXVALUE>
+            <CATEGORY></CATEGORY>
+        </PARAMETER>
+        <PARAMETER></PARAMETER>
+    </PARAMETERS>
+</MODEL>

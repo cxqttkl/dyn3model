@@ -1,0 +1,18 @@
+<MODEL>
+    <CAPTION>V字形河谷</CAPTION>  
+    <DESCRIPTION>V字形河谷又称青年期河谷，处于河谷发育初级阶段。特征是谷地窄且深，谷坡陡峭甚至直立，为顺直形坡面，谷底几乎全部被河床占据，河谷与河床的平面形态相一致。</DESCRIPTION>
+    <FILE>V字形河谷.gltf</FILE>
+    <THUMBNAIL>V字形河谷.gif</THUMBNAIL>
+    <PARAMETERS>
+        <PARAMETER>
+            <NAME></NAME>
+            <MEAN></MEAN>
+            <TYPE></TYPE>
+            <DEFAULTVALUE></DEFAULTVALUE>
+            <MINVALUE></MINVALUE>
+            <MAXVALUE></MAXVALUE>
+            <CATEGORY></CATEGORY>
+        </PARAMETER>
+        <PARAMETER></PARAMETER>
+    </PARAMETERS>
+</MODEL>

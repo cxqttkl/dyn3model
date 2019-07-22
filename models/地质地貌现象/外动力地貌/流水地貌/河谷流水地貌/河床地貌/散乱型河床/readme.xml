@@ -1,0 +1,18 @@
+<MODEL>
+    <CAPTION>散乱型河床</CAPTION>  
+    <DESCRIPTION>散乱型河床河道顺直，河身宽浅，水流散乱，沙滩高差不大却数量众多，汊道密布，无固定主河床。</DESCRIPTION>
+    <FILE>散乱型河床.gltf</FILE>
+    <THUMBNAIL>散乱型河床.gif</THUMBNAIL>
+    <PARAMETERS>
+        <PARAMETER>
+            <NAME></NAME>
+            <MEAN></MEAN>
+            <TYPE></TYPE>
+            <DEFAULTVALUE></DEFAULTVALUE>
+            <MINVALUE></MINVALUE>
+            <MAXVALUE></MAXVALUE>
+            <CATEGORY></CATEGORY>
+        </PARAMETER>
+        <PARAMETER></PARAMETER>
+    </PARAMETERS>
+</MODEL>

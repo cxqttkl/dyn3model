@@ -1,0 +1,19 @@
+﻿<MODEL>
+    <CAPTION>山坡型泥石流</CAPTION>  
+    <DESCRIPTION>山坡型泥石流是指流域呈斗状，其面积一般小于1000㎡,无明显流通区，形成区与堆积区直接相连的泥石流。
+</DESCRIPTION>
+    <FILE>山坡型泥石流.gltf</FILE>
+    <THUMBNAIL>山坡型泥石流.gif</THUMBNAIL>
+    <PARAMETERS>
+        <PARAMETER>
+            <NAME></NAME>
+            <MEAN></MEAN>
+            <TYPE></TYPE>
+            <DEFAULTVALUE></DEFAULTVALUE>
+            <MINVALUE></MINVALUE>
+            <MAXVALUE></MAXVALUE>
+            <CATEGORY></CATEGORY>
+        </PARAMETER>
+        <PARAMETER></PARAMETER>
+    </PARAMETERS>
+</MODEL>

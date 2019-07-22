@@ -1,0 +1,18 @@
+﻿<MODEL>
+    <CAPTION>覆盖层滑坡</CAPTION>  
+    <DESCRIPTION>覆盖层滑坡是指斜坡上的土体受河流冲刷、地下水活动、雨水浸泡、地震及人工切坡等因素影响，在重力作用下，沿着一定的软弱面或者软弱带，整体地或者分散地顺坡向下滑动的自然现象。</DESCRIPTION>
+    <FILE>覆盖层滑坡.gltf</FILE>
+    <THUMBNAIL>覆盖层滑坡.gif</THUMBNAIL>
+    <PARAMETERS>
+        <PARAMETER>
+            <NAME></NAME>
+            <MEAN></MEAN>
+            <TYPE></TYPE>
+            <DEFAULTVALUE></DEFAULTVALUE>
+            <MINVALUE></MINVALUE>
+            <MAXVALUE></MAXVALUE>
+            <CATEGORY></CATEGORY>
+        </PARAMETER>
+        <PARAMETER></PARAMETER>
+    </PARAMETERS>
+</MODEL>

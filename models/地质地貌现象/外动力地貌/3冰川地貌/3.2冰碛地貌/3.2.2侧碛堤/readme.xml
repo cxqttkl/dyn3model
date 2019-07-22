@@ -1,0 +1,18 @@
+﻿<MODEL>
+    <CAPTION>侧碛堤</CAPTION>  
+    <DESCRIPTION>侧碛堤是由侧碛堆积而成的。侧碛是冰舌两旁表碛不断由冰面滚落到冰川与山坡之间堆积起来的，有一部分则是山坡上的碎屑滚落到冰川边缘堆积而成的。冰川退缩后，在原山岳冰川两侧形成条状高地、即侧碛堤。</DESCRIPTION>
+    <FILE>侧碛堤.gltf</FILE>
+    <THUMBNAIL>侧碛堤.gif </THUMBNAIL>
+    <PARAMETERS>
+        <PARAMETER>
+            <NAME></NAME>
+            <MEAN></MEAN>
+            <TYPE></TYPE>
+            <DEFAULTVALUE></DEFAULTVALUE>
+            <MINVALUE></MINVALUE>
+            <MAXVALUE></MAXVALUE>
+            <CATEGORY></CATEGORY>
+        </PARAMETER>
+        <PARAMETER></PARAMETER>
+    </PARAMETERS>
+</MODEL>

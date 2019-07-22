@@ -1,0 +1,18 @@
+<MODEL>
+    <CAPTION>弯曲型河床</CAPTION>  
+    <DESCRIPTION>弯曲型河床是最常见的河型。完整的曲流由三个弯道——河（床）湾组成，每个弯道由湾顶和湾翼组成。</DESCRIPTION>
+    <FILE>弯曲型河床.gltf</FILE>
+    <THUMBNAIL>弯曲型河床.gif</THUMBNAIL>
+    <PARAMETERS>
+        <PARAMETER>
+            <NAME></NAME>
+            <MEAN></MEAN>
+            <TYPE></TYPE>
+            <DEFAULTVALUE></DEFAULTVALUE>
+            <MINVALUE></MINVALUE>
+            <MAXVALUE></MAXVALUE>
+            <CATEGORY></CATEGORY>
+        </PARAMETER>
+        <PARAMETER></PARAMETER>
+    </PARAMETERS>
+</MODEL>

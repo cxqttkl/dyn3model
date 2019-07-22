@@ -1,0 +1,23 @@
+﻿<MODEL>
+    <!-- 符号名称，如 地震 -->
+    <CAPTION>鸟爪型三角洲</CAPTION>  
+    <!-- 符号描述 如 地震是***  -->
+    <DESCRIPTION>鸟爪形三角洲是在河流作用占绝对优势、挟沙丰富的河流分成几股从不同方向入海，各分汉河口泥沙迅速堆积形成向海伸出的较长沙嘴。</DESCRIPTION>
+    <!-- 符号的文件名，如 a.gltf --
+    <FILE>鸟爪型三角洲.gltf</FILE>
+    <!-- 缩略图名，如 a.gif -->
+    <THUMBNAIL>鸟爪型三角洲.gif</THUMBNAIL>
+    <!-- 符号支持的参数，不清楚可先不填 -->
+    <PARAMETERS>
+        <PARAMETER>
+            <NAME></NAME>
+            <MEAN></MEAN>
+            <TYPE></TYPE>
+            <DEFAULTVALUE></DEFAULTVALUE>
+            <MINVALUE></MINVALUE>
+            <MAXVALUE></MAXVALUE>
+            <CATEGORY></CATEGORY>
+        </PARAMETER>
+        <PARAMETER></PARAMETER>
+    </PARAMETERS>
+</MODEL>

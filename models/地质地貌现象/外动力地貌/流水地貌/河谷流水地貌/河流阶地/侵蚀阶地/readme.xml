@@ -1,0 +1,23 @@
+﻿<MODEL>
+    <!-- 符号名称，如 地震 -->
+    <CAPTION>侵蚀阶地</CAPTION>  
+    <!-- 符号描述 如 地震是***  -->
+    <DESCRIPTION>侵蚀阶地是指阶地形成时，河流下切侵蚀基岩，使原河谷底部呈阶梯状分布在河谷谷坡上，阶地面很少保留冲积物的河流阶地</DESCRIPTION>
+    <!-- 符号的文件名，如 a.gltf -->
+    <FILE>侵蚀阶地.gltf</FILE>
+    <!-- 缩略图名，如 a.gif -->
+    <THUMBNAIL>侵蚀阶地.gif</THUMBNAIL>
+    <!-- 符号支持的参数，不清楚可先不填 -->
+    <PARAMETERS>
+        <PARAMETER>
+            <NAME></NAME>
+            <MEAN></MEAN>
+            <TYPE></TYPE>
+            <DEFAULTVALUE></DEFAULTVALUE>
+            <MINVALUE></MINVALUE>
+            <MAXVALUE></MAXVALUE>
+            <CATEGORY></CATEGORY>
+        </PARAMETER>
+        <PARAMETER></PARAMETER>
+    </PARAMETERS>
+</MODEL>

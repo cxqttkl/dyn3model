@@ -1,0 +1,18 @@
+﻿<MODEL>    
+    <CAPTION>鼓丘</CAPTION>  
+    <DESCRIPTION>鼓丘是在冰川底部形成的流线形岗丘，其高度小于冰厚，基底轮廓一般为椭圆形，也称“蛋丘”。</DESCRIPTION>
+    <FILE>鼓丘.gltf</FILE>
+    <THUMBNAIL>鼓丘.gif</THUMBNAIL>
+    <PARAMETERS>
+        <PARAMETER>
+            <NAME></NAME>
+            <MEAN></MEAN>
+            <TYPE></TYPE>
+            <DEFAULTVALUE></DEFAULTVALUE>
+            <MINVALUE></MINVALUE>
+            <MAXVALUE></MAXVALUE>
+            <CATEGORY></CATEGORY>
+        </PARAMETER>
+        <PARAMETER></PARAMETER>
+    </PARAMETERS>
+</MODEL>

@@ -1,0 +1,18 @@
+﻿<MODEL>
+    <CAPTION>坳沟</CAPTION>  
+    <DESCRIPTION>坳沟是由于向源侵蚀和下切侵蚀减弱，纵剖面坡度相当平缓，沟缘不明显，沟坡后退冲沟展宽。</DESCRIPTION>
+    <FILE>坳沟.gltf</FILE>
+    <THUMBNAIL>坳沟.gif</THUMBNAIL>
+    <PARAMETERS>
+        <PARAMETER>
+            <NAME></NAME>
+            <MEAN></MEAN>
+            <TYPE></TYPE>
+            <DEFAULTVALUE></DEFAULTVALUE>
+            <MINVALUE></MINVALUE>
+            <MAXVALUE></MAXVALUE>
+            <CATEGORY></CATEGORY>
+        </PARAMETER>
+        <PARAMETER></PARAMETER>
+    </PARAMETERS>
+</MODEL>

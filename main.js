@@ -25,8 +25,17 @@ function loadmeta() {
                 model3.name = $(this).attr("name");
                 model3.code = $(this).attr("code");
                 model3.desc = $(this).attr("descrption");
+                
                 model3.file = $(this).attr("file");
                 model3.thumb = $(this).attr("thumb");
+                
+                if(model3.file==undefined){
+                    model3.file=model3.name+".gltf";
+                }         
+            
+                if(model3.thumb==undefined){
+                    model3.thumb=model3.name+".gif";
+                }  
 
                 //模型文件夹的名称
                 model3.baseurl = "models/";
@@ -101,30 +110,36 @@ function createThumbList(modelArray) {
                     var model = modelArray[j];
                     if (model) {
                         var thumb = $("<div class='thumbnail'></div>");
-                        var image = $("<img alt='300*300'></img>").attr("src", model.fullthumb);
+                        var image = $("<img></img>").attr("src", model.fullthumb)
+                        .attr("alt",model.name);
                         //image.mousemove(funcion(){});
                         image.click(function () {
 
                             
-                             $("#modelviewer").modal();
-                            
+                            $("#modelviewer").modal();
+                           
                             var canvas = document.getElementById("renderCanvas");
-                            
                             var engine = new BABYLON.Engine(canvas, true, {
                                 preserveDrawingBuffer: true,
                                 stencil: true
                             });
-                            var scene = createScene(canvas,model.baseurl,model.file,engine);
-                            engine.runRenderLoop(function () {
-                                if (scene) {
-                                    scene.render();
+                            var clickModel = null;
+                            for(var ii=0;ii<models.length;ii++){
+                                if(models[ii].name==$(this).attr("alt")){
+                                    clickModel=models[ii];
                                 }
-                            });
-                            
-                            canvas.width=500;
-                            canvas.height=500;
-                           
-                            
+                            }
+                            if (clickModel) {
+                                var scene = createScene(canvas, clickModel.baseurl, clickModel.file, engine);
+                                engine.runRenderLoop(function () {
+                                    if (scene) {
+                                        scene.render();
+                                    }
+                                });
+                                canvas.width = 800;
+                                canvas.height =600;
+                            }
+                             
                         });
                         
                         var caption = $("<div class='caption'></div>").append("<h3></h3>").html(model.name);
@@ -132,6 +147,7 @@ function createThumbList(modelArray) {
                         thumb.append(caption);
                         var column = $("<div class='col-md-3'></div>").append(thumb);
                         row.append(column);
+                        
                     }
 
                 }

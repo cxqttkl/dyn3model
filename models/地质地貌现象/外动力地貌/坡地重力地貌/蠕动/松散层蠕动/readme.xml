@@ -1,0 +1,19 @@
+﻿<MODEL>
+    <CAPTION>松散层蠕动</CAPTION>  
+    <DESCRIPTION>松散层蠕动是指颗粒本身由于冷热、干湿变化引起体积膨胀、收缩，同时又在重力作用下产生的，包括土层蠕动和岩屑蠕动。</DESCRIPTION>
+    <FILE>松散层蠕动.gltf</FILE>
+    <THUMBNAIL>松散层蠕动.gif</THUMBNAIL>
+    <!-- 符号支持的参数，不清楚可先不填 -->
+    <PARAMETERS>
+        <PARAMETER>
+            <NAME></NAME>
+            <MEAN></MEAN>
+            <TYPE></TYPE>
+            <DEFAULTVALUE></DEFAULTVALUE>
+            <MINVALUE></MINVALUE>
+            <MAXVALUE></MAXVALUE>
+            <CATEGORY></CATEGORY>
+        </PARAMETER>
+        <PARAMETER></PARAMETER>
+    </PARAMETERS>
+</MODEL>

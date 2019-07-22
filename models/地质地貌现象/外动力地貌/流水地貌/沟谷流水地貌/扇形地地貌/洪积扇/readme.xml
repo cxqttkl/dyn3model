@@ -1,0 +1,18 @@
+﻿<MODEL>
+    <CAPTION>洪积扇</CAPTION>  
+    <DESCRIPTION>指暂时性或季节性河流出山口后变为多河床辫流形成的一种扇状堆积地形</DESCRIPTION>
+    <FILE>洪积扇.gltf</FILE>
+    <THUMBNAIL>洪积扇.gif</THUMBNAIL>
+    <PARAMETERS>
+        <PARAMETER>
+            <NAME></NAME>
+            <MEAN></MEAN>
+            <TYPE></TYPE>
+            <DEFAULTVALUE></DEFAULTVALUE>
+            <MINVALUE></MINVALUE>
+            <MAXVALUE></MAXVALUE>
+            <CATEGORY></CATEGORY>
+        </PARAMETER>
+        <PARAMETER></PARAMETER>
+    </PARAMETERS>
+</MODEL>
