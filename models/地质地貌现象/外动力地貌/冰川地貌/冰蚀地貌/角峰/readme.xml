@@ -1,0 +1,18 @@
+﻿<MODEL>
+    <CAPTION>角峰</CAPTION>      
+    <DESCRIPTION>角峰是由几个冰斗所围成的山峰，因冰斗后壁不断后退，使所围山峰成为高耸尖锐的山峰。</DESCRIPTION>
+    <FILE>角峰.gltf</FILE>
+    <THUMBNAIL>角峰.gif</THUMBNAIL>    
+    <PARAMETERS>
+        <PARAMETER>
+            <NAME></NAME>
+            <MEAN></MEAN>
+            <TYPE></TYPE>
+            <DEFAULTVALUE></DEFAULTVALUE>
+            <MINVALUE></MINVALUE>
+            <MAXVALUE></MAXVALUE>
+            <CATEGORY></CATEGORY>
+        </PARAMETER>
+        <PARAMETER></PARAMETER>
+    </PARAMETERS>
+</MODEL>

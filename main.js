@@ -111,7 +111,7 @@ function createThumbList(modelArray) {
                     if (model) {
                         var thumb = $("<div class='thumbnail'></div>");
                         var image = $("<img></img>").attr("src", model.fullthumb)
-                        .attr("alt",model.name);
+                        .attr("alt",model.name).css("height","200px");
                         //image.mousemove(funcion(){});
                         image.click(function () {
 
@@ -130,6 +130,7 @@ function createThumbList(modelArray) {
                                 }
                             }
                             if (clickModel) {
+                                $("#titleLabel").text(clickModel.name);
                                 var scene = createScene(canvas, clickModel.baseurl, clickModel.file, engine);
                                 engine.runRenderLoop(function () {
                                     if (scene) {
@@ -169,13 +170,15 @@ function createThumbList(modelArray) {
      //Adding an Arc Rotate Camera
      var camera = new BABYLON.ArcRotateCamera("Camera", 0, 0.8, 10, BABYLON.Vector3.Zero(), scene);
      camera.attachControl(canvas, false);
-
+    
      // The first parameter can be used to specify which mesh to import. Here we import all meshes
-     BABYLON.SceneLoader.Append(baseurl, gltf, scene, function (newMeshes) {
+     var loader =  BABYLON.SceneLoader.Append(baseurl, gltf, scene, function (newMeshes) {
          scene.activeCamera = null;
          scene.createDefaultCameraOrLight(true);
          scene.activeCamera.attachControl(canvas, false);
      });
+     
+     loader.animationStartMode = BABYLON.GLTFLoaderAnimationStartMode.ALL;
 
      return scene;
  }
