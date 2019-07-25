@@ -110,7 +110,68 @@
 		</C2>
     </C1>
 
-    <C1 name="气象符号" code="01" descrption="内动力地貌符号描述文档"></C1>
-
+    <C1 name="气象符号" code="01" descrption="内动力地貌符号描述文档">
+    
+    </C1>
+    <C1 name="天气" code="01" descrption="内动力地貌符号描述文档">
+        <C2 name="独立天气">
+            <C3 name="晴">
+                 <S name="白天"></S>
+                 <S name="夜间"></S>
+            </C3>
+            <C3 name="多云">
+                 <S name="白天"></S>
+                 <S name="夜间"></S>
+            </C3>
+            <S name="阴"></S>
+            <C3 name="雨">
+                <S name="小雨"></S>
+                <S name="中雨"></S>
+                <S name="大雨"></S>
+                <S name="暴雨"></S>
+                <S name="大暴雨"></S>
+                <S name="特大暴雨"></S>
+                <S name="阵雨"></S>
+                <S name="雷阵雨"></S>
+                <S name="冻雨"></S>
+                <S name="小雨-中雨"></S>
+                <S name="中雨-大雨"></S>
+                <S name="大雨-暴雨"></S>
+                <S name="暴雨-大暴雨"></S>
+                <S name="大暴雨-特大暴雨"></S>
+            </C3>
+            <C3 name="雪">
+                <S name="阵雪"></S>
+                <S name="小雪"></S>
+                <S name="中雪"></S>
+                <S name="大雪"></S>
+                <S name="暴雪"></S>
+                <S name="小雪-中雪"></S>
+                <S name="中雪-大雪"></S>
+                <S name="大雪-暴雪"></S>
+            </C3>
+            <C3 name="雾">
+                <S name="小雾"></S>
+                <S name="中雾"></S>
+                <S name="大雾"></S>
+            </C3>
+            <C3 name="沙尘天气">
+                <S name="浮尘"></S>
+                <S name="扬沙"></S>
+                <S name="沙尘暴"></S>
+                <S name="强沙尘暴"></S>
+            </C3>
+            <C3 name="霾">
+                 <S name="轻微霾"></S>
+                 <S name="轻度霾"></S>
+                 <S name="中度霾"></S>
+                 <S name="重度霾"></S>
+            </C3>
+        </C2>
+        <C2 name="复合天气">
+            <S name="雷雨天伴有冰雹"></S>
+            <S name="雨夹雪"></S>
+        </C2>
+    </C1>
 
 </ALL>

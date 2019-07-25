@@ -1,4 +1,5 @@
 var models = [];
+var treedata=[];
 // page load
 $(document).ready(function () {
 
@@ -81,8 +82,19 @@ function loadmeta() {
 
         //getModelInfo();
         createThumbList(models);
+        
+        models.forEach(function(model3,idx){
+            
+            
+        }); 
+
+        
+        $('#modelTree').treeview({data: treedata});
     });
 }
+          
+          
+          
 //获得
 function getModelInfo() {
     if (models) {
@@ -94,6 +106,17 @@ function getModelInfo() {
         }
 
     }
+}
+
+function createTree(){
+    
+    $('#modelTree').treeview({data: getTree()});
+}
+
+function modelFromClass1(modelArray){
+    
+    
+    
 }
 
 function createThumbList(modelArray) {
