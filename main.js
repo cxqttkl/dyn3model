@@ -75,21 +75,17 @@ function loadmeta() {
                 model3.fullfile = model3.baseurl + model3.file;
                 model3.fullthumb = model3.baseurl + model3.thumb;
                 model3.fullreadme = model3.baseurl + "readme.xml";
+            
+                
 
                 models.push(model3);
 
             });
 
         //getModelInfo();
-        createThumbList(models);
+        modelFromClass1(models);
         
-        models.forEach(function(model3,idx){
-            
-            
-        }); 
-
-        
-        $('#modelTree').treeview({data: treedata});
+        //$('#modelTree').treeview({data: treedata});
     });
 }
           
@@ -114,16 +110,44 @@ function createTree(){
 }
 
 function modelFromClass1(modelArray){
-    
-    
+    $("#thumbcontainer").empty();
+    var allClass1=[];
+    if(modelArray){
+        if(modelArray.length>0){
+            modelArray.forEach(function(el, i){
+               if(el.class1){
+                   if(!allClass1.includes(el.class1)){
+                       allClass1.push(el.class1);
+                   }
+               } 
+            });
+            
+        }
+    }
+    if(allClass1.length>0){
+        allClass1.forEach(function(el,i){
+            var newArray=[];
+            for(var i=0;i<modelArray.length;i++){
+                if(modelArray[i].class1==el){
+                    newArray.push(modelArray[i]);
+                }
+            }
+            createThumbList(el,newArray);
+        });
+    }
     
 }
 
-function createThumbList(modelArray) {
-    $("#thumbcontainer").empty();
-
+function createThumbList(caption, modelArray) {
+   
     if (modelArray) {
         if (modelArray.length > 0) {
+            
+            var rowCaption = $("<div class='well'></div>");
+            var h5Cpation = $("<h4</h4>").text(caption+"动态符号，共计"+modelArray.length.toString() +"个");
+            rowCaption.append(h5Cpation);
+            $("#thumbcontainer").append(rowCaption);
+            
             var rowNum = Math.ceil(modelArray.length / 4);
 
             for (var i = 0; i < rowNum; i++) {
@@ -153,7 +177,7 @@ function createThumbList(modelArray) {
                                 }
                             }
                             if (clickModel) {
-                                $("#titleLabel").text(clickModel.name);
+                                $("#titleLabel").text("名称："+ clickModel.name+ " 符号地址："+ clickModel.fullfile );
                                 var scene = createScene(canvas, clickModel.baseurl, clickModel.file, engine);
                                 engine.runRenderLoop(function () {
                                     if (scene) {
@@ -166,10 +190,14 @@ function createThumbList(modelArray) {
                              
                         });
                         
+                        
+                        
                         var caption = $("<div class='caption'></div>").append("<h3></h3>").html(model.name);
                         thumb.append(image);
                         thumb.append(caption);
                         var column = $("<div class='col-md-3'></div>").append(thumb);
+                        
+                        
                         row.append(column);
                         
                     }
@@ -178,6 +206,7 @@ function createThumbList(modelArray) {
                 
                 $("#thumbcontainer").append(row);
             }
+            
 
         }
 

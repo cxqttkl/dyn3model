@@ -10,7 +10,7 @@
             </S>
             </C3>
         </C2>
-		<C2 name="外动力地貌">
+        <C2 name="外动力地貌">
             <C3 name="坡地重力地貌">
                 <C4 name="崩塌">
                     <S name="崩积物崩塌"></S>
@@ -92,8 +92,8 @@
                 </C4>
             </C3>
             <C3 name="风沙地貌">
-               <C4 name="风蚀地貌">
-                   <S name="风蚀洼地"></S>
+                <C4 name="风蚀地貌">
+                    <S name="风蚀洼地"></S>
                     <S name="风蚀蘑菇"></S>
                     <S name="风蚀城堡"></S>
                     <S name="风蚀谷"></S>
@@ -105,23 +105,23 @@
                     <S name="对流型沙丘"></S>
                     <S name="干扰型沙丘"></S>
                 </C4>
-               
+
             </C3>
-		</C2>
+        </C2>
     </C1>
 
     <C1 name="气象符号" code="01" descrption="内动力地貌符号描述文档">
-    
+
     </C1>
     <C1 name="天气" code="01" descrption="内动力地貌符号描述文档">
         <C2 name="独立天气">
             <C3 name="晴">
-                 <S name="白天"></S>
-                 <S name="夜间"></S>
+                <S name="白天"></S>
+                <S name="夜间"></S>
             </C3>
             <C3 name="多云">
-                 <S name="白天"></S>
-                 <S name="夜间"></S>
+                <S name="白天"></S>
+                <S name="夜间"></S>
             </C3>
             <S name="阴"></S>
             <C3 name="雨">
@@ -162,10 +162,10 @@
                 <S name="强沙尘暴"></S>
             </C3>
             <C3 name="霾">
-                 <S name="轻微霾"></S>
-                 <S name="轻度霾"></S>
-                 <S name="中度霾"></S>
-                 <S name="重度霾"></S>
+                <S name="轻微霾"></S>
+                <S name="轻度霾"></S>
+                <S name="中度霾"></S>
+                <S name="重度霾"></S>
             </C3>
         </C2>
         <C2 name="复合天气">
@@ -173,5 +173,73 @@
             <S name="雨夹雪"></S>
         </C2>
     </C1>
+    <C1 name="气象">
+        <C2 name="气象气候现象">
+            <S name="大气环流"></S>
+            <C3 name="气旋系统">
+                <C4 name="气旋">
+                    <S name="温带气旋"></S>
+                    <S name="热带气旋"></S>
+                    <S name="地方性气旋"></S>
+                    <S name="高空冷涡"></S>
+                </C4>
+                <C4 name="反气旋">
+                    <S name="极地反气旋"></S>
+                    <S name="冷性反气旋"></S>
+                    <S name="暖性反气旋"></S>
+                </C4>
+            </C3>
+            <C3 name="云与云系">
+                <C4 name="云">
+                    <S name="卷云"></S>
+                    <S name="层云"></S>
+                    <C5 name="积云">
+                        <S name="淡积云"></S>
+                        <S name="浓积云"></S>
+                        <S name="碎积云"></S>
+                    </C5>
+                    <S name="卷积云"></S>
+                    <S name="卷层云"></S>
+                    <C5 name="高层云">
+                        <S name="避光高层云"></S>
+                        <S name="透光高层云"></S>
+                    </C5>
+                    <S name="高积云"></S>
+                    <S name="雨层云"></S>
+                    <S name="层积云"></S>
+                    <S name="积雨云"></S>
+                </C4>
+                <C4 name="云系">
+                    <S name="冷锋云系"></S>
+                    <S name="暖锋云系"></S>
+                    <S name="急流云系"></S>
+                    <S name="带状云系"></S>
+                    <S name="涡旋状云系"></S>
+                    <S name="逗点状云系"></S>
+                    <S name="叶状云系"></S>
+                    <S name="细胞状云系"></S>
+                    <S name="波状云系"></S>
+                </C4>
+            </C3>
+            <C3 name="锋面系统">
+                <S name="冷锋"></S>
+                <S name="暖锋"></S>
+                <S name="准静止锋"></S>
+                <S name="锢囚锋"></S>
+            </C3>
+            <C3 name="高压脊与低压槽">
+                <S name="高压脊"></S>
+                <S name="低压槽"></S>
+            </C3>
+        </C2>
+        <C2 name="其他局部气象">
+            <C3 name="龙卷风">
+                <S name="绳形龙卷风"></S>
+                <S name="烟囱形龙卷风"></S>
+                <S name="楔形龙卷风"></S>
+                <S name="多涡旋龙卷风"></S>
+            </C3>
 
+        </C2>
+    </C1>
 </ALL>
