@@ -1,0 +1,18 @@
+<MODEL>
+    <CAPTION>洗衣店</CAPTION>  
+    <DESCRIPTION></DESCRIPTION>
+    <FILE>洗衣店.gltf</FILE>
+    <THUMBNAIL>洗衣店.gif</THUMBNAIL>
+    <PARAMETERS>
+        <PARAMETER>
+            <NAME></NAME>
+            <MEAN></MEAN>
+            <TYPE></TYPE>
+            <DEFAULTVALUE></DEFAULTVALUE>
+            <MINVALUE></MINVALUE>
+            <MAXVALUE></MAXVALUE>
+            <CATEGORY></CATEGORY>
+        </PARAMETER>
+        <PARAMETER></PARAMETER>
+    </PARAMETERS>
+</MODEL>

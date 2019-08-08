@@ -2,8 +2,8 @@
     <!-- 符号名称，如 地震 -->
     <CAPTION>冲积扇</CAPTION>  
     <!-- 符号描述 如 地震是***  -->
-    <DESCRIPTION>冲积扇是河流出山口处的扇形堆积体。当河流流出谷口时，摆脱了侧向约束，其携带物质便铺散沉积下来。冲积扇平面上呈扇形，扇顶伸向谷口；立体上大致呈半埋藏的锥形。</DESCRIPTION>
-    <!-- 符号的文件名，如 a.gltf -->
+    <DESCRIPTION>冲积扇是河流出山口处的扇形堆积体</DESCRIPTION>
+    <!-- 符号的文件名，如 a.gltf --
     <FILE>冲积扇.gltf</FILE>
     <!-- 缩略图名，如 a.gif -->
     <THUMBNAIL>冲积扇3.gif</THUMBNAIL>

@@ -1,8 +1,13 @@
 ﻿<MODEL>
+    <!-- 符号名称，如 地震 -->
     <CAPTION>冰碛丘陵</CAPTION>  
-    <DESCRIPTION>冰碛丘陵属于冰碛地貌的一种，是冰川消融后表碛、中碛、内碛沉落于底碛上形成的起伏不平的地面形态。</DESCRIPTION>
-    <FILE>冰碛丘陵.gltf </FILE>
+    <!-- 符号描述 如 地震是***  -->
+    <DESCRIPTION>冰碛丘陵是冰川消融后表碛、中碛、内碛沉落于底碛上形成的起伏不平的地面形态，冰碛厚度由数米至百余米不等。</DESCRIPTION>
+    <!-- 符号的文件名，如 a.gltf -->
+    <FILE>冰碛丘陵.gltf</FILE>
+    <!-- 缩略图名，如 a.gif -->
     <THUMBNAIL>冰碛丘陵.gif</THUMBNAIL>
+    <!-- 符号支持的参数，不清楚可先不填 -->
     <PARAMETERS>
         <PARAMETER>
             <NAME></NAME>

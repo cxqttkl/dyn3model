@@ -1,8 +1,13 @@
-﻿<MODEL>    
+﻿<MODEL>
+    <!-- 符号名称，如 地震 -->
     <CAPTION>鼓丘</CAPTION>  
-    <DESCRIPTION>鼓丘是在冰川底部形成的流线形岗丘，其高度小于冰厚，基底轮廓一般为椭圆形，也称“蛋丘”。</DESCRIPTION>
+    <!-- 符号描述 如 地震是***  -->
+    <DESCRIPTION>鼓丘是在冰川底部形成的高度小于冰厚，轮廓一般为椭圆形的流线形岗丘。</DESCRIPTION>
+    <!-- 符号的文件名，如 a.gltf -->
     <FILE>鼓丘.gltf</FILE>
+    <!-- 缩略图名，如 a.gif -->
     <THUMBNAIL>鼓丘.gif</THUMBNAIL>
+    <!-- 符号支持的参数，不清楚可先不填 -->
     <PARAMETERS>
         <PARAMETER>
             <NAME></NAME>

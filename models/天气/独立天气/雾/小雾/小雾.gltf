@@ -195,21 +195,21 @@
 				{
 					"sampler": 0,
 					"target": {
-						"node": 2,
+						"node": 1,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 1,
 					"target": {
-						"node": 2,
+						"node": 1,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 2,
 					"target": {
-						"node": 2,
+						"node": 1,
 						"path": "scale"
 					}
 				}
@@ -238,21 +238,21 @@
 				{
 					"sampler": 0,
 					"target": {
-						"node": 3,
+						"node": 2,
 						"path": "translation"
 					}
 				},
 				{
 					"sampler": 1,
 					"target": {
-						"node": 3,
+						"node": 2,
 						"path": "rotation"
 					}
 				},
 				{
 					"sampler": 2,
 					"target": {
-						"node": 3,
+						"node": 2,
 						"path": "scale"
 					}
 				}
@@ -342,7 +342,7 @@
 	],
 	"meshes": [
 		{
-			"name": "mesh_Cube_526Cube up",
+			"name": "mesh_Cube_524Cube up",
 			"primitives": [
 				{
 					"attributes": {
@@ -359,7 +359,7 @@
 			]
 		},
 		{
-			"name": "mesh_Cube_526Cube middle",
+			"name": "mesh_Cube_524Cube middle",
 			"primitives": [
 				{
 					"attributes": {
@@ -380,28 +380,35 @@
 		{
 			"name": "UnityGlTF_root",
 			"children": [
-				1
+				4
 			]
 		},
 		{
-			"name": "node__3326",
-			"children": [
-				2,
-				3
-			],
-			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0.3106525, 0, -1.436275, 1]
-		},
-		{
-			"name": "node_Cube up_3404",
+			"name": "node_Cube up_37178",
 			"mesh": 0,
 			"translation": [ 0, 0.172, -0.3166482],
 			"scale": [ 0.6641902, 0.05945, 0.1000001]
 		},
 		{
-			"name": "node_Cube middle_3366",
+			"name": "node_Cube middle_37166",
 			"mesh": 1,
 			"translation": [ 0, 0, -0.3166482],
 			"scale": [ 0.6641902, 0.05945, 0.1000001]
+		},
+		{
+			"name": "node__37154",
+			"children": [
+				1,
+				2
+			],
+			"translation": [ 0, -0.08599997, 0.3166482]
+		},
+		{
+			"name": "node__37182",
+			"children": [
+				3
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 21.91188, 6.367935, 1.607089, 1]
 		}
 	],
 	"scenes": [

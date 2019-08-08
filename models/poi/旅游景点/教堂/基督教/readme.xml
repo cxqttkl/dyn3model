@@ -1,0 +1,18 @@
+<MODEL>
+    <CAPTION>基督教</CAPTION>  
+    <DESCRIPTION>基督教</DESCRIPTION>
+    <FILE>基督教.gltf</FILE>
+    <THUMBNAIL>基督教.gif</THUMBNAIL>
+    <PARAMETERS>
+        <PARAMETER>
+            <NAME></NAME>
+            <MEAN></MEAN>
+            <TYPE></TYPE>
+            <DEFAULTVALUE></DEFAULTVALUE>
+            <MINVALUE></MINVALUE>
+            <MAXVALUE></MAXVALUE>
+            <CATEGORY></CATEGORY>
+        </PARAMETER>
+        <PARAMETER></PARAMETER>
+    </PARAMETERS>
+</MODEL>

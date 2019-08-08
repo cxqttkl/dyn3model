@@ -1,15 +1,15 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <ALL>
     <C1 name="地质地貌现象" code="01" descrption="内动力地貌符号描述文档">
-        <C2 name="内动力地貌" code="0101" descrption="">
-            <C3 name="区域构造地貌" code="0101" descrption="区域构造地貌">
-                <S name="构造山系" code="010101" file="abc.gltf" thumb="thumbnail.png" descrption="">
-            </S>
+        <!--        <C2 name="内动力地貌" code="0101" descrption="">-->
+        <!--            <C3 name="区域构造地貌" code="0101" descrption="区域构造地貌">-->
+        <!--                <S name="构造山系" code="010101" file="abc.gltf" thumb="thumbnail.png" descrption="">-->
+        <!--            </S>-->
 
-                <S name="大陆裂谷" code="010102" file="a.glb" thumb="thumbnail.png" descrption="">
-            </S>
-            </C3>
-        </C2>
+        <!--                <S name="大陆裂谷" code="010102" file="a.glb" thumb="thumbnail.png" descrption="">-->
+        <!--            </S>-->
+        <!--            </C3>-->
+        <!--        </C2>-->
         <C2 name="外动力地貌">
             <C3 name="坡地重力地貌">
                 <C4 name="崩塌">
@@ -96,7 +96,7 @@
                     <S name="风蚀洼地"></S>
                     <S name="风蚀蘑菇"></S>
                     <S name="风蚀城堡"></S>
-                    <S name="风蚀谷"></S>
+                    <S name="风蚀谷（丘）"></S>
                     <S name="风蚀雅丹"></S>
                 </C4>
                 <C4 name="风积地貌">
@@ -106,22 +106,26 @@
                     <S name="干扰型沙丘"></S>
                 </C4>
 
+                <C4 name="荒漠">
+                    <S name="岩漠"></S>
+                    <S name="砾漠"></S>
+                    <S name="沙漠"></S>
+                    <S name="泥漠"></S>
+                </C4>
+
             </C3>
         </C2>
     </C1>
 
-    <C1 name="气象符号" code="01" descrption="内动力地貌符号描述文档">
-
-    </C1>
     <C1 name="天气" code="01" descrption="内动力地貌符号描述文档">
         <C2 name="独立天气">
             <C3 name="晴">
-                <S name="白天"></S>
-                <S name="夜间"></S>
+                <S name="晴-白天"></S>
+                <S name="晴-夜间"></S>
             </C3>
             <C3 name="多云">
-                <S name="白天"></S>
-                <S name="夜间"></S>
+                <S name="多云-白天"></S>
+                <S name="多云-夜间"></S>
             </C3>
             <S name="阴"></S>
             <C3 name="雨">
@@ -173,6 +177,7 @@
             <S name="雨夹雪"></S>
         </C2>
     </C1>
+
     <C1 name="气象">
         <C2 name="气象气候现象">
             <S name="大气环流"></S>
@@ -241,5 +246,147 @@
             </C3>
 
         </C2>
+    </C1>
+
+    <C1 name="POI" code="01" descrption="内动力地貌符号描述文档">
+        <C2 name="酒店宾馆">
+            <C3 name="星级宾馆">
+                <S name="一二星级酒店"></S>
+                <S name="三星级酒店"></S>
+                <S name="四星级酒店"></S>
+                <S name="五星级酒店"></S>
+                <S name="六星级酒店"></S>
+            </C3>
+            <S name="青年旅社"></S>
+            <S name="酒店附属设施"></S>
+        </C2>
+
+        <C2 name="生活服务">
+            <C3 name="邮政">
+                <S name="邮局"></S>
+            </C3>
+            <C3 name="丧葬设施">
+                <S name="火葬场"></S>
+                <S name="公墓"></S>
+            </C3>
+            <S name="洗衣店"></S>
+            <S name="维修站点"></S>
+        </C2>
+
+        <C2 name="旅游景点">
+            <C3 name="公园广场">
+                <S name="公园"></S>
+                <S name="广场"></S>
+                <S name="动物园"></S>
+            </C3>
+            <C3 name="教堂">
+                <S name="基督教"></S>
+                <S name="伊斯兰教"></S>
+            </C3>
+        </C2>
+
+        <C2 name="汽车服务">
+            <C3 name="汽车销售与维修">
+                <S name="汽车维修"></S>
+            </C3>
+            <C3 name="综合能源站">
+                <S name="加油站"></S>
+            </C3>
+        </C2>
+
+        <C2 name="交通设施">
+            <C3 name="服务区">
+                <S name="高速停车区"></S>
+                <S name="高速加油站服务区"></S>
+                <S name="高速停车区"></S>
+                <S name="高速路收费站"></S>
+            </C3>
+            <C3 name="车站">
+                <S name="公交车站"></S>
+                <S name="出租车站"></S>
+            </C3>
+        </C2>
+
+        <C2 name="金融行业">
+            <S name="银行"></S>
+            <S name="24小时自助银行"></S>
+            <S name="保险公司"></S>
+            <S name="ATM"></S>
+            <S name="证券"></S>
+        </C2>
+
+        <C2 name="购物场所">
+            <C3 name="商场">
+                <S name="购物服务"></S>
+            </C3>
+            <S name="超市"></S>
+            <C3 name="电商商场">
+                <S name="电脑店"></S>
+            </C3>
+
+            <C3 name="专卖店">
+                <S name="摄影店"></S>
+                <S name="书店"></S>
+                <S name="乐器店"></S>
+                <S name="眼镜店"></S>
+            </C3>
+        </C2>
+
+        <C2 name="餐饮美食">
+            <S name="中餐厅"></S>
+            <C3 name="西餐厅">
+                <S name="意式菜品餐厅"></S>
+            </C3>
+            <C3 name="快餐">
+                <S name="西式快餐厅"></S>
+            </C3>
+            <S name="冷饮店"></S>
+            <S name="甜品店"></S>
+        </C2>
+
+        <C2 name="运动休闲">
+            <C3 name="娱乐场所">
+                <S name="KTV"></S>
+                <S name="酒吧"></S>
+                <S name="棋牌室"></S>
+            </C3>
+            <C3 name="运动场所">
+                <S name="足球场"></S>
+                <S name="乒乓球馆"></S>
+                <S name="台球厅"></S>
+            </C3>
+        </C2>
+
+        <C2 name="公司企业">
+            <C3 name ='公司企业'>
+                <S name = '建筑公司'></S>
+                <S name = '医药公司'></S>
+            </C3>
+            <S name = '工厂'></S>
+        </C2>
+
+        <C2 name="文化教育">
+            <C3 name="文化场馆">
+<!--                <S name = '海洋馆'></S>-->
+                <S name = '图书馆'></S>
+                <S name = '天文馆'></S>
+            </C3>
+        </C2>
+
+        <C2 name="社会团体">
+            <S name = '红十字会'></S>
+        </C2>
+
+        <C2 name="政府机构">
+            <C3 name="公检法机构">
+                <S name = '警察局'></S>
+            </C3>
+            <C3 name="各职能部门">
+                <S name = '人民政治协商会议委员会'></S>
+            </C3>
+        </C2>
+
+
+
     </C1>
 </ALL>

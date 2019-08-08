@@ -1,0 +1,224 @@
+{
+	"asset": {
+		"generator": "Unity 2018.3.11f1",
+		"extras": {
+			"exporterVersion" : "2.2.1"
+		},
+		"version": "2.0"
+	},
+	"accessors": [
+		{
+			"bufferView": 2,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 64,
+			"max": [ 0.553, 0.109, 0.253 ],
+			"min": [ -0.553, -0.09999999, -0.253 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 768,
+			"componentType": 5126,
+			"count": 64,
+			"max": [ 1, 1, 1 ],
+			"min": [ -1, -0.6269428, -1 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 64,
+			"max": [ 1, 1 ],
+			"min": [ 0, 0 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 0,
+			"componentType": 5126,
+			"count": 64,
+			"max": [ 1, 0.6461512, 1, 1 ],
+			"min": [ -1, -0.6461506, -1, 1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 0,
+			"componentType": 5123,
+			"count": 156,
+			"max": [ 63 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 1536,
+			"componentType": 5126,
+			"count": 1628,
+			"max": [ -1.179167, 1.379038, 0.2 ],
+			"min": [ -2.146291, 0.1384561, -0.008 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 21072,
+			"componentType": 5126,
+			"count": 1628,
+			"max": [ 0.9999911, 0.9999983, 1 ],
+			"min": [ -0.9999911, -0.9999983, -1 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 512,
+			"componentType": 5126,
+			"count": 1628,
+			"max": [ 1, 1 ],
+			"min": [ 0, 0 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 1024,
+			"componentType": 5126,
+			"count": 1628,
+			"max": [ 1, 0.9999725, 1, 1 ],
+			"min": [ -1, -0.9999911, -0.108606, -1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 312,
+			"componentType": 5123,
+			"count": 2940,
+			"max": [ 1627 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
+		}
+	],
+	"buffers": [
+		{
+			"byteLength": 87408,
+			"uri": "公墓.bin"
+		}
+	],
+	"bufferViews": [
+		{
+			"buffer": 0,
+			"byteLength": 6192,
+			"target": 34963,
+			"byteOffset": 81216
+		},
+		{
+			"buffer": 0,
+			"byteLength": 13536,
+			"target": 34962,
+			"byteStride": 8,
+			"byteOffset": 0
+		},
+		{
+			"buffer": 0,
+			"byteLength": 40608,
+			"target": 34962,
+			"byteStride": 12,
+			"byteOffset": 13536
+		},
+		{
+			"buffer": 0,
+			"byteLength": 27072,
+			"target": 34962,
+			"byteStride": 16,
+			"byteOffset": 54144
+		}
+	],
+	"materials": [
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [0.509434, 0.502225, 0.502225, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": ""
+		}
+	],
+	"meshes": [
+		{
+			"name": "mesh_Cube_19926Cube",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 4,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		},
+		{
+			"name": "mesh_Extrude_1_19940Extrude_1",
+			"primitives": [
+				{
+					"attributes": {
+						"POSITION": 5,
+						"NORMAL": 6,
+						"TEXCOORD_0": 7,
+						"TANGENT": 8
+					},
+					"indices": 9,
+					"material": 0,
+					"mode": 4
+				}
+			]
+		}
+	],
+	"nodes": [
+		{
+			"name": "UnityGlTF_root",
+			"children": [
+				4
+			]
+		},
+		{
+			"name": "node_fbx_-31078",
+			"children": [
+				3,
+				2
+			],
+			"translation": [ 0.3420258, -0.5359735, -0.01460552]
+		},
+		{
+			"name": "node_Cube_-31114",
+			"mesh": 0,
+			"translation": [ -0.3428943, 0.01733328, 0.06104359]
+		},
+		{
+			"name": "node_Extrude_1_-31124",
+			"mesh": 1,
+			"translation": [ 1.31498, -0.02263369, -0.02582098]
+		},
+		{
+			"name": "node__-34284",
+			"children": [
+				1
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, -6.157, 15.03454, -14.1255, 1]
+		}
+	],
+	"scenes": [
+		{
+			"name":"defaultScene",
+			"nodes": [
+				0
+			]
+		}
+	],
+	"scene": 0
+}

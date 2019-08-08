@@ -1,0 +1,18 @@
+<MODEL>
+    <CAPTION>维修站点</CAPTION>  
+    <DESCRIPTION></DESCRIPTION>
+    <FILE>维修站点.gltf</FILE>
+    <THUMBNAIL>维修站点.gif</THUMBNAIL>
+    <PARAMETERS>
+        <PARAMETER>
+            <NAME></NAME>
+            <MEAN></MEAN>
+            <TYPE></TYPE>
+            <DEFAULTVALUE></DEFAULTVALUE>
+            <MINVALUE></MINVALUE>
+            <MAXVALUE></MAXVALUE>
+            <CATEGORY></CATEGORY>
+        </PARAMETER>
+        <PARAMETER></PARAMETER>
+    </PARAMETERS>
+</MODEL>

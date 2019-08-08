@@ -1,0 +1,18 @@
+<MODEL>
+    <CAPTION>火葬场</CAPTION>  
+    <DESCRIPTION>火葬场</DESCRIPTION>
+    <FILE>火葬场.gltf</FILE>
+    <THUMBNAIL>火葬场.gif</THUMBNAIL>
+    <PARAMETERS>
+        <PARAMETER>
+            <NAME></NAME>
+            <MEAN></MEAN>
+            <TYPE></TYPE>
+            <DEFAULTVALUE></DEFAULTVALUE>
+            <MINVALUE></MINVALUE>
+            <MAXVALUE></MAXVALUE>
+            <CATEGORY></CATEGORY>
+        </PARAMETER>
+        <PARAMETER></PARAMETER>
+    </PARAMETERS>
+</MODEL>
