@@ -34,7 +34,7 @@
                         <S name="冲沟"></S>
                         <S name="坳沟"></S>
                     </C5>
-                    <C5 name="扇形地地貌">
+                    <C5 name="扇形地">
                         <S name="洪积扇"></S>
                         <S name="冲积扇"></S>
                     </C5>
@@ -58,22 +58,24 @@
                     </C5>
                     <C5 name="河流阶地">
                         <S name="侵蚀阶地"></S>
-                        <S name="堆积上叠阶地"></S>
-                        <S name="堆积内叠阶地"></S>
-                        <S name="堆积基座阶地"></S>
-                        <S name="堆积埋藏阶地"></S>
+                        <S name="上叠阶地"></S>
+                        <S name="内叠阶地"></S>
+                        <S name="基座阶地"></S>
+                        <S name="埋藏阶地"></S>
                     </C5>
                     <C5 name="河谷">
                         <S name="V字形河谷"></S>
                         <S name="河漫滩河谷"></S>
                         <S name="成熟河谷"></S>
+<!--                        <S name="河谷变换"></S>-->
                     </C5>
                 </C4>
+
                 <C4 name="河口地区地貌">
-                    <s name="鸟爪形三角洲"></s>
-                    <s name="扇形三角洲"></s>
-                    <s name="尖头形三角洲"></s>
-                    <s name="指形三角洲"></s>
+                    <S name="鸟爪形三角洲"></S>
+                    <S name="扇形三角洲"></S>
+                    <S name="尖头形三角洲"></S>
+                    <S name="指形三角洲"></S>
                 </C4>
             </C3>
             <C3 name="冰川地貌">
@@ -93,11 +95,11 @@
             </C3>
             <C3 name="风沙地貌">
                 <C4 name="风蚀地貌">
-                    <S name="风蚀洼地"></S>
                     <S name="风蚀蘑菇"></S>
                     <S name="风蚀城堡"></S>
                     <S name="风蚀谷（丘）"></S>
                     <S name="风蚀雅丹"></S>
+                    <S name="风蚀洼地"></S>
                 </C4>
                 <C4 name="风积地貌">
                     <S name="新月形沙丘"></S>
@@ -118,64 +120,72 @@
     </C1>
 
     <C1 name="天气" code="01" descrption="内动力地貌符号描述文档">
-        <C2 name="独立天气">
-            <C3 name="晴">
-                <S name="晴-白天"></S>
-                <S name="晴-夜间"></S>
-            </C3>
-            <C3 name="多云">
-                <S name="多云-白天"></S>
-                <S name="多云-夜间"></S>
-            </C3>
-            <S name="阴"></S>
-            <C3 name="雨">
-                <S name="小雨"></S>
-                <S name="中雨"></S>
-                <S name="大雨"></S>
-                <S name="暴雨"></S>
-                <S name="大暴雨"></S>
-                <S name="特大暴雨"></S>
-                <S name="阵雨"></S>
-                <S name="雷阵雨"></S>
+
+        <C2 name="晴">
+            <S name="晴-白天"></S>
+            <S name="晴-夜间"></S>
+        </C2>
+
+        <C2 name="多云">
+            <S name="多云-白天"></S>
+            <S name="多云-夜间"></S>
+        </C2>
+
+        <S name="阴"></S>
+
+        <C2 name="雨">
+            <S name="小雨"></S>
+            <S name="中雨"></S>
+            <S name="大雨"></S>
+            <S name="暴雨"></S>
+            <S name="大暴雨"></S>
+            <S name="特大暴雨"></S>
+            <S name="阵雨"></S>
+            <S name="小雨-中雨"></S>
+            <S name="中雨-大雨"></S>
+            <S name="大雨-暴雨"></S>
+            <S name="暴雨-大暴雨"></S>
+            <S name="大暴雨-特大暴雨"></S>
+            <C3 name="其他">
                 <S name="冻雨"></S>
-                <S name="小雨-中雨"></S>
-                <S name="中雨-大雨"></S>
-                <S name="大雨-暴雨"></S>
-                <S name="暴雨-大暴雨"></S>
-                <S name="大暴雨-特大暴雨"></S>
-            </C3>
-            <C3 name="雪">
-                <S name="阵雪"></S>
-                <S name="小雪"></S>
-                <S name="中雪"></S>
-                <S name="大雪"></S>
-                <S name="暴雪"></S>
-                <S name="小雪-中雪"></S>
-                <S name="中雪-大雪"></S>
-                <S name="大雪-暴雪"></S>
-            </C3>
-            <C3 name="雾">
-                <S name="小雾"></S>
-                <S name="中雾"></S>
-                <S name="大雾"></S>
-            </C3>
-            <C3 name="沙尘天气">
-                <S name="浮尘"></S>
-                <S name="扬沙"></S>
-                <S name="沙尘暴"></S>
-                <S name="强沙尘暴"></S>
-            </C3>
-            <C3 name="霾">
-                <S name="轻微霾"></S>
-                <S name="轻度霾"></S>
-                <S name="中度霾"></S>
-                <S name="重度霾"></S>
+                <S name="雷阵雨"></S>
+                <S name="雨夹雪"></S>
+                <S name="雷雨天伴有冰雹"></S>
             </C3>
         </C2>
-        <C2 name="复合天气">
-            <S name="雷雨天伴有冰雹"></S>
-            <S name="雨夹雪"></S>
+
+        <C2 name="雪">
+            <S name="阵雪"></S>
+            <S name="小雪"></S>
+            <S name="中雪"></S>
+            <S name="大雪"></S>
+            <S name="暴雪"></S>
+            <S name="小雪-中雪"></S>
+            <S name="中雪-大雪"></S>
+            <S name="大雪-暴雪"></S>
         </C2>
+
+        <C2 name="雾">
+            <S name="小雾"></S>
+            <S name="中雾"></S>
+            <S name="大雾"></S>
+        </C2>
+
+        <C2 name="沙尘天气">
+            <S name="浮尘"></S>
+            <S name="扬沙"></S>
+            <S name="沙尘暴"></S>
+            <S name="强沙尘暴"></S>
+        </C2>
+
+        <C2 name="霾">
+            <S name="轻微霾"></S>
+            <S name="轻度霾"></S>
+            <S name="中度霾"></S>
+            <S name="重度霾"></S>
+        </C2>
+
+
     </C1>
 
     <C1 name="气象">
@@ -248,7 +258,7 @@
         </C2>
     </C1>
 
-    <C1 name="POI" code="01" descrption="内动力地貌符号描述文档">
+    <C1 name="POI">
         <C2 name="酒店宾馆">
             <C3 name="星级宾馆">
                 <S name="一二星级酒店"></S>
@@ -298,7 +308,7 @@
             <C3 name="服务区">
                 <S name="高速停车区"></S>
                 <S name="高速加油站服务区"></S>
-                <S name="高速停车区"></S>
+                <S name="高速服务区"></S>
                 <S name="高速路收费站"></S>
             </C3>
             <C3 name="车站">
@@ -358,35 +368,109 @@
         </C2>
 
         <C2 name="公司企业">
-            <C3 name ='公司企业'>
-                <S name = '建筑公司'></S>
-                <S name = '医药公司'></S>
+            <C3 name='公司企业'>
+                <S name='建筑公司'></S>
+                <S name='医药公司'></S>
             </C3>
-            <S name = '工厂'></S>
+            <S name='工厂'></S>
         </C2>
 
         <C2 name="文化教育">
             <C3 name="文化场馆">
-<!--                <S name = '海洋馆'></S>-->
-                <S name = '图书馆'></S>
-                <S name = '天文馆'></S>
+                <!--                <S name = '海洋馆'></S>-->
+                <S name='图书馆'></S>
+                <S name='天文馆'></S>
             </C3>
         </C2>
 
         <C2 name="社会团体">
-            <S name = '红十字会'></S>
+            <S name='红十字会'></S>
         </C2>
 
         <C2 name="政府机构">
             <C3 name="公检法机构">
-                <S name = '警察局'></S>
+                <S name='警察局'></S>
             </C3>
             <C3 name="各职能部门">
-                <S name = '人民政治协商会议委员会'></S>
+                <S name='人民政治协商会议委员会'></S>
             </C3>
         </C2>
 
 
+    </C1>
+
+
+    <C1 name="室内poi">
+
+        <C2 name="餐饮美食">
+
+            <C3 name="中餐">
+                <S name="火锅" thumbnail="png"></S>
+                <S name="面类" thumbnail="png"></S>
+                <S name="烧烤" thumbnail="png"></S>
+                <S name="中餐" thumbnail="png"></S>
+            </C3>
+
+            <S name="餐饮(总)" thumbnail="png"></S>
+            <S name="快餐小吃" thumbnail="png"></S>
+            <S name="其他料理" thumbnail="png"></S>
+            <S name="甜品饮料" thumbnail="png"></S>
+            <S name="西餐" thumbnail="png"></S>
+        </C2>
+
+        <C2 name="服务">
+            <S name="服务（总）" thumbnail="png"></S>
+            <S name="教育培训" thumbnail="png"></S>
+            <S name="美容美发" thumbnail="png"></S>
+            <S name="医药健康" thumbnail="png"></S>
+            <S name="运动健身" thumbnail="png"></S>
+        </C2>
+
+        <C2 name="公共设施">
+            <C3 name="室内交通">
+                <S name="出入口" thumbnail="png"></S>
+                <S name="扶梯" thumbnail="png"></S>
+                <S name="楼梯" thumbnail="png"></S>
+                <S name="直梯" thumbnail="png"></S>
+            </C3>
+            <C3 name="通用设备">
+                <S name="厕所" thumbnail="png"></S>
+                <S name="服务台" thumbnail="png"></S>
+                <S name="收银" thumbnail="png"></S>
+            </C3>
+            <C3 name="信号服务">
+                <S name="wifi" thumbnail="png"></S>
+            </C3>
+        </C2>
+
+        <C2 name="购物">
+            <C3 name="超市">
+                <S name="超市零售" thumbnail="png"></S>
+            </C3>
+            <C3 name="电器商场">
+                <S name="电子产品" thumbnail="png"></S>
+            </C3>
+            <C3 name="服装鞋帽皮具店">
+                <S name="男装" thumbnail="png"></S>
+                <S name="女装" thumbnail="png"></S>
+                <S name="童装" thumbnail="png"></S>
+            </C3>
+            <C3 name="护肤彩妆店">
+                <S name="护肤彩妆店" thumbnail="png"></S>
+            </C3>
+            <C3 name="珠宝饰品店">
+                <S name="珠宝饰品店" thumbnail="png"></S>
+            </C3>
+            <S name="购物（总）" thumbnail="png"></S>
+        </C2>
+
+        <C2 name="娱乐">
+            <S name="电影院" thumbnail="png"></S>
+            <S name="儿童娱乐" thumbnail="png"></S>
+            <S name="网吧网咖" thumbnail="png"></S>
+            <S name="游戏电玩" thumbnail="png"></S>
+            <S name="娱乐(总)" thumbnail="png"></S>
+        </C2>
 
     </C1>
 </ALL>

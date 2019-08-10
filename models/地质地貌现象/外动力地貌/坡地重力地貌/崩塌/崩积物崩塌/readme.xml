@@ -4,8 +4,8 @@
     <!-- 符号描述 如 地震是***  -->
     <DESCRIPTION>崩积物崩塌是山坡上已有的崩塌岩屑和沙土等物质，由于它们的质地很松散，当有雨水浸湿或受地震震动时，再一次形成的崩塌。</DESCRIPTION>
     <!-- 符号的文件名，如 a.gltf -->
-    <FILE>111.gltf</FILE>
-    <!-- 缩略图名，如 a.gif -->
+    <FILE>崩积物崩塌.gltf</FILE>
+    <!-- 缩略图名，如 崩积物崩塌.gif -->
     <THUMBNAIL>崩积物崩塌.gif</THUMBNAIL>
     <!-- 符号支持的参数，不清楚可先不填 -->
     <PARAMETERS>

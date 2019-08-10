@@ -11,51 +11,6 @@
 			"bufferView": 3,
 			"byteOffset": 0,
 			"componentType": 5126,
-			"count": 539,
-			"max": [ 1.124206, 1.157305, 0 ],
-			"min": [ -1.124206, -1.157305, -1.077829 ],
-			"type": "VEC3"
-		},
-		{
-			"bufferView": 3,
-			"byteOffset": 6468,
-			"componentType": 5126,
-			"count": 539,
-			"max": [ 1, 1, 1 ],
-			"min": [ -1, -1, -0.9895111 ],
-			"type": "VEC3"
-		},
-		{
-			"bufferView": 2,
-			"byteOffset": 0,
-			"componentType": 5126,
-			"count": 539,
-			"max": [ 1, 1 ],
-			"min": [ 0, 0 ],
-			"type": "VEC2"
-		},
-		{
-			"bufferView": 4,
-			"byteOffset": 0,
-			"componentType": 5126,
-			"count": 539,
-			"max": [ 1, 1, 0.50306, 1 ],
-			"min": [ -1, -1, -0.6189752, 1 ],
-			"type": "VEC4"
-		},
-		{
-			"bufferView": 0,
-			"byteOffset": 0,
-			"componentType": 5123,
-			"count": 2616,
-			"max": [ 538 ],
-			"min": [ 0 ],
-			"type": "SCALAR"
-		},
-		{
-			"bufferView": 3,
-			"byteOffset": 12936,
-			"componentType": 5126,
 			"count": 188,
 			"max": [ 0.2810515, -0.5786524, -1.020554 ],
 			"min": [ -0.2810515, -0.8421617, -1.133745 ],
@@ -63,7 +18,7 @@
 		},
 		{
 			"bufferView": 3,
-			"byteOffset": 15192,
+			"byteOffset": 2256,
 			"componentType": 5126,
 			"count": 188,
 			"max": [ 1, 0.9529202, 0.9669028 ],
@@ -72,7 +27,7 @@
 		},
 		{
 			"bufferView": 2,
-			"byteOffset": 4312,
+			"byteOffset": 0,
 			"componentType": 5126,
 			"count": 188,
 			"max": [ 0.625, 0.25 ],
@@ -81,7 +36,7 @@
 		},
 		{
 			"bufferView": 4,
-			"byteOffset": 8624,
+			"byteOffset": 0,
 			"componentType": 5126,
 			"count": 188,
 			"max": [ 1, 0, 0, 1 ],
@@ -90,7 +45,7 @@
 		},
 		{
 			"bufferView": 0,
-			"byteOffset": 5232,
+			"byteOffset": 0,
 			"componentType": 5123,
 			"count": 372,
 			"max": [ 187 ],
@@ -132,6 +87,51 @@
 			"max": [ 1, 1, 1 ],
 			"min": [ 1, 1, 1 ],
 			"type": "VEC3"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 4512,
+			"componentType": 5126,
+			"count": 539,
+			"max": [ 1.124206, 1.157305, 0 ],
+			"min": [ -1.124206, -1.157305, -1.077829 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 10980,
+			"componentType": 5126,
+			"count": 539,
+			"max": [ 1, 1, 1 ],
+			"min": [ -1, -1, -0.9895111 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 1504,
+			"componentType": 5126,
+			"count": 539,
+			"max": [ 1, 1 ],
+			"min": [ 0, 0 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 4,
+			"byteOffset": 3008,
+			"componentType": 5126,
+			"count": 539,
+			"max": [ 1, 1, 0.50306, 1 ],
+			"min": [ -1, -1, -0.6189752, 1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 744,
+			"componentType": 5123,
+			"count": 2616,
+			"max": [ 538 ],
+			"min": [ 0 ],
+			"type": "SCALAR"
 		},
 		{
 			"bufferView": 3,
@@ -243,19 +243,19 @@
 			],
 			"samplers": [
 				{
-					"input": 10,
+					"input": 5,
 					"interpolation": "LINEAR",
-					"output": 11
+					"output": 6
 				},
 				{
-					"input": 10,
+					"input": 5,
 					"interpolation": "LINEAR",
-					"output": 12
+					"output": 7
 				},
 				{
-					"input": 10,
+					"input": 5,
 					"interpolation": "LINEAR",
-					"output": 13
+					"output": 8
 				}
 			]
 		},
@@ -357,13 +357,10 @@
 	],
 	"images": [
 		{
-			"uri": "/Assets/尾碛堤001.fbm/雪地1.jpg"
+			"uri": "/Assets/冰川地貌/冰碛地貌/Textures/冰川5_侧碛堤.fbm/rock.jpg"
 		},
 		{
-			"uri": "/Assets/尾碛堤001.fbm/rock.jpg"
-		},
-		{
-			"uri": "/Assets/尾碛堤001.fbm/冰川.jpg"
+			"uri": "/Assets/冰蚀地貌/Textures/冰川谷谷0805.fbm/timg3.jpg"
 		}
 	],
 	"materials": [
@@ -379,7 +376,19 @@
 			},
 			"emissiveFactor": [0, 0, 0],
 			"doubleSided": false,
-			"name": "1"
+			"name": "rock"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [1, 1, 1, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 1
+			},
+			"alphaMode": "BLEND",
+			"alphaCutoff": 0.5,
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": "No Name"
 		},
 		{
 			"pbrMetallicRoughness": {
@@ -393,26 +402,12 @@
 			},
 			"emissiveFactor": [0, 0, 0],
 			"doubleSided": false,
-			"name": "rock"
-		},
-		{
-			"pbrMetallicRoughness": {
-				"baseColorTexture" : {
-					"index" : 2,
-					"texCoord" : 0
-				},
-				"baseColorFactor": [0.5882353, 0.5882353, 0.5882353, 1],
-				"metallicFactor": 0,
-				"roughnessFactor": 1
-			},
-			"emissiveFactor": [0, 0, 0],
-			"doubleSided": false,
-			"name": ""
+			"name": "timg3"
 		}
 	],
 	"meshes": [
 		{
-			"name": "mesh_Box001_16930Box001",
+			"name": "mesh_003_16608003",
 			"primitives": [
 				{
 					"attributes": {
@@ -428,23 +423,23 @@
 			]
 		},
 		{
-			"name": "mesh_003_16928003",
+			"name": "mesh_Box001_16606Box001",
 			"primitives": [
 				{
 					"attributes": {
-						"POSITION": 5,
-						"NORMAL": 6,
-						"TEXCOORD_0": 7,
-						"TANGENT": 8
+						"POSITION": 9,
+						"NORMAL": 10,
+						"TEXCOORD_0": 11,
+						"TANGENT": 12
 					},
-					"indices": 9,
+					"indices": 13,
 					"material": 1,
 					"mode": 4
 				}
 			]
 		},
 		{
-			"name": "mesh_005_16932005",
+			"name": "mesh_005_16610005",
 			"primitives": [
 				{
 					"attributes": {
@@ -464,41 +459,48 @@
 		{
 			"name": "UnityGlTF_root",
 			"children": [
-				1
+				6
 			]
 		},
 		{
-			"name": "node_001_-65014",
-			"children": [
-				2,
-				3,
-				4,
-				5
-			],
-			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 5.719909, -8.120003, 11.2584, 1]
-		},
-		{
-			"name": "node_Box001_-65016",
-			"mesh": 0,
-			"translation": [ -0.1807322, 0.4430784, 0.01130508],
-			"rotation": [-0.7071068, 0, 0, -0.7071068]
-		},
-		{
-			"name": "node_003_-65018",
-			"mesh": 1,
-			"translation": [ -0.1807322, -0.408, 0.01130508],
-			"rotation": [-0.7071068, 0, 0, -0.7071068]
-		},
-		{
-			"name": "node_004_-65020",
+			"name": "node_004_-152274",
 			"translation": [ -0.1807322, 1.249637, 0.01130508],
 			"rotation": [-0.7071068, 0, 0, -0.7071068]
 		},
 		{
-			"name": "node_005_-65022",
+			"name": "node_1_-152266",
+			"children": [
+				4,
+				3,
+				1,
+				5
+			],
+			"translation": [ 0.236, -0.58, -0.149]
+		},
+		{
+			"name": "node_003_-152272",
+			"mesh": 0,
+			"translation": [ -0.1807322, -0.408, 0.01130508],
+			"rotation": [-0.7071068, 0, 0, -0.7071068]
+		},
+		{
+			"name": "node_Box001_-152270",
+			"mesh": 1,
+			"translation": [ -0.1807322, 0.4430784, 0.01130508],
+			"rotation": [-0.7071068, 0, 0, -0.7071068]
+		},
+		{
+			"name": "node_005_-152276",
 			"mesh": 2,
 			"translation": [ -0.1807322, -0.917, 0.01],
 			"rotation": [-0.7071068, 0, 0, -0.7071068]
+		},
+		{
+			"name": "node__-152264",
+			"children": [
+				2
+			],
+			"matrix": [1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1]
 		}
 	],
 	"samplers": [
@@ -526,10 +528,6 @@
 		{
 			"sampler": 0,
 			"source": 1
-		},
-		{
-			"sampler": 0,
-			"source": 2
 		}
 	]
 }

@@ -28,13 +28,15 @@ function loadmeta() {
                 model3.desc = $(this).attr("descrption");
                 
                 model3.file = $(this).attr("file");
-                model3.thumb = $(this).attr("thumb");
+                
                 
                 if(model3.file==undefined){
                     model3.file=model3.name+".gltf";
                 }         
             
-                if(model3.thumb==undefined){
+                 //如果指定了格式，就严格按照格式来，如果没指定格式，就按照GIF格式
+                model3.thumb = model3.name+"."+ $(this).attr("thumbnail");
+                if($(this).attr("thumbnail")==undefined){
                     model3.thumb=model3.name+".gif";
                 }  
 

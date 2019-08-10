@@ -1,0 +1,18 @@
+<MODEL>
+    <CAPTION>尖头形三角洲</CAPTION>  
+    <DESCRIPTION>波浪显著地控制着三角洲前缘的形态，其前缘沉积物大多经波浪改造、运移和重新分配，形成大体平行于海岸线分布的沙坝或沙滩，其中河口附近沙体堆积较多，发育成向海凸出呈弓形、鸟嘴形或尖头形三角洲。</DESCRIPTION>
+    <FILE>尖头形三角洲.gltf</FILE>
+    <THUMBNAIL>尖头形三角洲.gif</THUMBNAIL>
+    <PARAMETERS>
+        <PARAMETER>
+            <NAME></NAME>
+            <MEAN></MEAN>
+            <TYPE></TYPE>
+            <DEFAULTVALUE></DEFAULTVALUE>
+            <MINVALUE></MINVALUE>
+            <MAXVALUE></MAXVALUE>
+            <CATEGORY></CATEGORY>
+        </PARAMETER>
+        <PARAMETER></PARAMETER>
+    </PARAMETERS>
+</MODEL>

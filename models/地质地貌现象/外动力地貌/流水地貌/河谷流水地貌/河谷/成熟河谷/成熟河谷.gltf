@@ -11,51 +11,6 @@
 			"bufferView": 2,
 			"byteOffset": 0,
 			"componentType": 5126,
-			"count": 121,
-			"max": [ 5, 1.110223E-16, 5 ],
-			"min": [ -5, -1.110223E-16, -5 ],
-			"type": "VEC3"
-		},
-		{
-			"bufferView": 2,
-			"byteOffset": 1452,
-			"componentType": 5126,
-			"count": 121,
-			"max": [ 0, 1, 0 ],
-			"min": [ 0, 1, 0 ],
-			"type": "VEC3"
-		},
-		{
-			"bufferView": 1,
-			"byteOffset": 0,
-			"componentType": 5126,
-			"count": 121,
-			"max": [ 1, 1 ],
-			"min": [ 0, 0 ],
-			"type": "VEC2"
-		},
-		{
-			"bufferView": 3,
-			"byteOffset": 0,
-			"componentType": 5126,
-			"count": 121,
-			"max": [ -1, 0, 0, 1 ],
-			"min": [ -1, 0, 0, 1 ],
-			"type": "VEC4"
-		},
-		{
-			"bufferView": 0,
-			"byteOffset": 0,
-			"componentType": 5123,
-			"count": 600,
-			"max": [ 120 ],
-			"min": [ 0 ],
-			"type": "SCALAR"
-		},
-		{
-			"bufferView": 2,
-			"byteOffset": 2904,
-			"componentType": 5126,
 			"count": 787,
 			"max": [ 3.81, 1.27, 0 ],
 			"min": [ -3.81, -1.27, -1.342836 ],
@@ -63,7 +18,7 @@
 		},
 		{
 			"bufferView": 2,
-			"byteOffset": 12348,
+			"byteOffset": 9444,
 			"componentType": 5126,
 			"count": 787,
 			"max": [ 1, 1, 1 ],
@@ -72,7 +27,7 @@
 		},
 		{
 			"bufferView": 1,
-			"byteOffset": 968,
+			"byteOffset": 0,
 			"componentType": 5126,
 			"count": 787,
 			"max": [ 1, 1 ],
@@ -81,7 +36,7 @@
 		},
 		{
 			"bufferView": 3,
-			"byteOffset": 1936,
+			"byteOffset": 0,
 			"componentType": 5126,
 			"count": 787,
 			"max": [ 1, 1, 0.8559856, 1 ],
@@ -90,7 +45,7 @@
 		},
 		{
 			"bufferView": 0,
-			"byteOffset": 1200,
+			"byteOffset": 0,
 			"componentType": 5123,
 			"count": 954,
 			"max": [ 327 ],
@@ -99,11 +54,56 @@
 		},
 		{
 			"bufferView": 0,
-			"byteOffset": 3108,
+			"byteOffset": 1908,
 			"componentType": 5123,
 			"count": 2400,
 			"max": [ 786 ],
 			"min": [ 328 ],
+			"type": "SCALAR"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 18888,
+			"componentType": 5126,
+			"count": 121,
+			"max": [ 5, 1.110223E-16, 5 ],
+			"min": [ -5, -1.110223E-16, -5 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 2,
+			"byteOffset": 20340,
+			"componentType": 5126,
+			"count": 121,
+			"max": [ 0, 1, 0 ],
+			"min": [ 0, 1, 0 ],
+			"type": "VEC3"
+		},
+		{
+			"bufferView": 1,
+			"byteOffset": 6296,
+			"componentType": 5126,
+			"count": 121,
+			"max": [ 1, 1 ],
+			"min": [ 0, 0 ],
+			"type": "VEC2"
+		},
+		{
+			"bufferView": 3,
+			"byteOffset": 12592,
+			"componentType": 5126,
+			"count": 121,
+			"max": [ -1, 0, 0, 1 ],
+			"min": [ -1, 0, 0, 1 ],
+			"type": "VEC4"
+		},
+		{
+			"bufferView": 0,
+			"byteOffset": 6708,
+			"componentType": 5123,
+			"count": 600,
+			"max": [ 120 ],
+			"min": [ 0 ],
 			"type": "SCALAR"
 		},
 		{
@@ -234,36 +234,26 @@
 	],
 	"images": [
 		{
-			"uri": "/Assets/Models/前方，需要勇气！/TexturesCom_Soil3_3x3_1K_albedo.jpg"
+			"uri": "/Assets/河谷流水地貌/河谷/Textures/Sand (Beach).jpg"
 		},
 		{
-			"uri": "/Assets/Models/前方，需要勇气！/TexturesCom_Grass0120_1_seamless_S.jpg"
+			"uri": "/Assets/河谷流水地貌/河谷/Textures/Grass (Hill)(1).jpg"
 		}
 	],
 	"materials": [
-		{
-			"pbrMetallicRoughness": {
-				"baseColorFactor": [0.1294118, 0.2, 0.3647059, 1],
-				"metallicFactor": 0,
-				"roughnessFactor": 0.5
-			},
-			"emissiveFactor": [0, 0, 0],
-			"doubleSided": false,
-			"name": ""
-		},
 		{
 			"pbrMetallicRoughness": {
 				"baseColorTexture" : {
 					"index" : 0,
 					"texCoord" : 0
 				},
-				"baseColorFactor": [0.5882353, 0.5882353, 0.5882353, 1],
+				"baseColorFactor": [1, 1, 1, 1],
 				"metallicFactor": 0,
-				"roughnessFactor": 1
+				"roughnessFactor": 0.5
 			},
 			"emissiveFactor": [0, 0, 0],
 			"doubleSided": false,
-			"name": "02 - Default"
+			"name": "Sand (Beach)"
 		},
 		{
 			"pbrMetallicRoughness": {
@@ -271,18 +261,28 @@
 					"index" : 1,
 					"texCoord" : 0
 				},
-				"baseColorFactor": [0.5882353, 0.5882353, 0.5882353, 1],
+				"baseColorFactor": [1, 1, 1, 1],
 				"metallicFactor": 0,
-				"roughnessFactor": 1
+				"roughnessFactor": 0.5
 			},
 			"emissiveFactor": [0, 0, 0],
 			"doubleSided": false,
-			"name": "01 - Default"
+			"name": "Grass (Hill)(1)"
+		},
+		{
+			"pbrMetallicRoughness": {
+				"baseColorFactor": [0.01361692, 0.2982111, 0.9622642, 1],
+				"metallicFactor": 0,
+				"roughnessFactor": 0.5
+			},
+			"emissiveFactor": [0, 0, 0],
+			"doubleSided": false,
+			"name": ""
 		}
 	],
 	"meshes": [
 		{
-			"name": "mesh_Plane_580Plane",
+			"name": "mesh_Box003_11420",
 			"primitives": [
 				{
 					"attributes": {
@@ -294,29 +294,29 @@
 					"indices": 4,
 					"material": 0,
 					"mode": 4
+				},
+				{
+					"attributes": {
+						"POSITION": 0,
+						"NORMAL": 1,
+						"TEXCOORD_0": 2,
+						"TANGENT": 3
+					},
+					"indices": 5,
+					"material": 1,
+					"mode": 4
 				}
 			]
 		},
 		{
-			"name": "mesh_Box003_2764",
+			"name": "mesh_Plane_536Plane",
 			"primitives": [
 				{
 					"attributes": {
-						"POSITION": 5,
-						"NORMAL": 6,
-						"TEXCOORD_0": 7,
-						"TANGENT": 8
-					},
-					"indices": 9,
-					"material": 1,
-					"mode": 4
-				},
-				{
-					"attributes": {
-						"POSITION": 5,
-						"NORMAL": 6,
-						"TEXCOORD_0": 7,
-						"TANGENT": 8
+						"POSITION": 6,
+						"NORMAL": 7,
+						"TEXCOORD_0": 8,
+						"TANGENT": 9
 					},
 					"indices": 10,
 					"material": 2,
@@ -325,7 +325,7 @@
 			]
 		},
 		{
-			"name": "mesh_Plane_580Plane",
+			"name": "mesh_Plane_536Plane (1)",
 			"primitives": [
 				{
 					"attributes": {
@@ -335,13 +335,13 @@
 						"TANGENT": 14
 					},
 					"indices": 15,
-					"material": 0,
+					"material": 2,
 					"mode": 4
 				}
 			]
 		},
 		{
-			"name": "mesh_Plane_580Plane (1)",
+			"name": "mesh_Plane_536Plane",
 			"primitives": [
 				{
 					"attributes": {
@@ -351,7 +351,7 @@
 						"TANGENT": 19
 					},
 					"indices": 20,
-					"material": 0,
+					"material": 2,
 					"mode": 4
 				}
 			]
@@ -361,46 +361,54 @@
 		{
 			"name": "UnityGlTF_root",
 			"children": [
-				2
+				3
 			]
 		},
 		{
-			"name": "node_Plane_-1130",
+			"name": "node__-2696",
 			"mesh": 0,
-			"translation": [ 0, 0.17, 0],
-			"scale": [ 0.14132, 1, 0.2530573]
-		},
-		{
-			"name": "node__-1100",
-			"mesh": 1,
 			"children": [
-				3
+				2
 			],
-			"matrix": [1, 0, 0, 0, 0, -1.192093E-07, 1, 0, 0, -1, -1.192093E-07, 0, 0, -0.99, 0, 1]
+			"translation": [ 0, -0.97, 0],
+			"rotation": [-0.7071068, 0, 0, -0.7071068]
 		},
 		{
-			"name": "node__-1108",
+			"name": "node__-2700",
 			"children": [
 				4,
-				1,
+				6,
 				5
 			],
 			"translation": [ 0, 0, -0.5],
 			"rotation": [0.7071068, 0, 0, -0.7071068]
 		},
 		{
-			"name": "node_Plane_-1128",
-			"mesh": 2,
+			"name": "node__-2694",
+			"children": [
+				1
+			],
+			"matrix": [-1.192093E-07, 0, 1, 0, 0, 1, 0, 0, -1, 0, -1.192093E-07, 0, 0, 0, -7.84, 1]
+		},
+		{
+			"name": "node_Plane_-2708",
+			"mesh": 1,
 			"translation": [ -0.19, -0.09, 1.26],
 			"scale": [ 0.05500242, 1, 0.1119095],
 			"rotation": [-0.5, -0.5, -0.5, -0.5]
 		},
 		{
-			"name": "node_Plane (1)_-1132",
-			"mesh": 3,
+			"name": "node_Plane (1)_-2712",
+			"mesh": 2,
 			"translation": [ -0.19, -0.09, -1.264],
 			"scale": [ 0.0550059, 1, 0.11191],
 			"rotation": [0.5, 0.5, -0.5, -0.5]
+		},
+		{
+			"name": "node_Plane_-2710",
+			"mesh": 3,
+			"translation": [ 0, 0.17, 0],
+			"scale": [ 0.14132, 1, 0.2530573]
 		}
 	],
 	"samplers": [
