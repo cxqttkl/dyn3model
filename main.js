@@ -2051,15 +2051,23 @@ function loadmeta() {
                 model3.desc = $(this).attr("descrption");
                 
                 model3.file = $(this).attr("file");
-                model3.thumb = $(this).attr("thumb");
+                //model3.thumb = $(this).attr("thumb");
                 
                 if(model3.file==undefined){
                     model3.file=model3.name+".gltf";
-                }         
+                }    
+            
+                //如果指定了格式，就严格按照格式来，如果没指定格式，就按照GIF格式
+                model3.thumb = model3.name+"."+ $(this).attr("thumbnail");
+                if($(this).attr("thumbnail")==undefined){
+                    model3.thumb=model3.name+".gif";
+                }  
             
                 if(model3.thumb==undefined){
                     model3.thumb=model3.name+".gif";
                 }  
+            
+                
 
                 //模型文件夹的名称
                 model3.baseurl = "models/";
